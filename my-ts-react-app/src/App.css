@@ -1,0 +1,110 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.info-button,
+.edit-button,
+.save-button {
+  background-color: #61dafb;
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.info-button:hover,
+.edit-button:hover,
+.save-button:hover {
+  background-color: #0074cc;
+}
+
+.info-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+  max-width: 300px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.info-item {
+  font-size: 18px;
+  margin: 10px 0;
+  color: black;
+}
+
+/* Additional style for input fields and textarea in edit mode */
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.save-button {
+  margin-top: 10px;
+}
+
+.additional-content {
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: left;
+}
+
+.additional-content h2 {
+  font-size: 24px;
+  color: #61dafb;
+}
+
+.additional-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.additional-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.additional-content li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 600px) {
+  .info-container {
+    padding: 10px;
+  }
+
+  .profile-picture {
+    width: 100%;
+  }
+}
